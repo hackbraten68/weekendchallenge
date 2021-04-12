@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero {
+  position: relative;
+  height: 97vh;
+  width: 85%;
+  /* your code here */
+}
+
+.hero::before {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  /* background image here */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.gradient-border {
+  /* and here */
+}
+
+strong,
+.btn {
+  /* you guessed it  */
+}
+
+.btn {
+  /* your code here */
+}
+
+.btn:hover,
+.btn:focus {
+  /* clue below  */
+  /* filter: ??? */
+}
